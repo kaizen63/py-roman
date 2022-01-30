@@ -3,8 +3,9 @@ import sys
 import collections
 
 
-def int_to_roman(n):
-    '''Convert an Integer to a Roman Number'''
+def int_to_roman(n: int):
+    """Convert an Integer to a Roman Number
+    """
     if n < 1:
         raise ValueError('Not a valid number: ' + str(n))
     

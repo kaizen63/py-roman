@@ -1,5 +1,4 @@
 from py_roman import int_to_roman
-import pytest
 
 testdata = {
     1: 'I',
@@ -4010,4 +4009,4 @@ testdata = {
 
 def test_roman():
     for k, v in testdata.items():
-        assert( v == int_to_roman(k))
+        assert (v == int_to_roman(k))
